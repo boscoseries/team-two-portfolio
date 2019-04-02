@@ -84,9 +84,8 @@ h1::after {
 
 p {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background: #000;
-  position: relative;
 }
 
 #team .member {
@@ -96,8 +95,13 @@ p {
   position: relative;
 }
 
+<<<<<<< HEAD
+#team .member .member-info{
+  opacity: 1;
+=======
 #team .member .member-info {
   opacity: 0;
+>>>>>>> staging
   display: flex;
   justify-content: center;
   position: absolute;
@@ -109,13 +113,15 @@ p {
   transition: 0.2s;
 }
 
+
 #team .member:hover .member-info {
-  background: #000;
+  background: rgba(0,0,0,0,7);
   opacity: 1;
   transition: 0.4s;
 }
 
 #team .member:hover .member-info-content {
+  color: #00ffe0;
   margin-top: 0;
   transition: 0.4s;
 }
@@ -124,7 +130,11 @@ p {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+<<<<<<< HEAD
+  color: white
+=======
   color: #fff;
+>>>>>>> staging
 }
 
 #team .member span {
@@ -142,3 +152,65 @@ p {
   transition: none;
   color: #fff;
 }
+<<<<<<< HEAD
+
+body {
+  font-family: sans-serif;
+  color: #3c3939;
+  background-color: #f1f1f1
+}
+
+.profile-card {
+  width: 400px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+.image-container {
+  position: relative;
+}
+
+.info {
+  color: #4b4fe2;
+  margin-right: 16px;
+}
+.main-container {
+  padding: 20px;
+}
+.skill-bar {
+  background-color: #bdc9ea;
+  border-radius: 16px;
+}
+
+.progress-bar {
+  padding: 0.1em 16px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #4b4fe2;
+}
+
+.title {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+}
+
+span > a {
+  color: #0afbbce0;
+}
+
+span > a:hover{
+  color: #0afbbce0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h4 > a:hover{
+  color: rgba(238, 207, 207, 0.966);
+  font-weight: bold;
+  text-decoration: none;
+}
+=======
+>>>>>>> staging
