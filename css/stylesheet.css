@@ -95,13 +95,8 @@ p {
   position: relative;
 }
 
-<<<<<<< HEAD
-#team .member .member-info{
-  opacity: 1;
-=======
 #team .member .member-info {
   opacity: 0;
->>>>>>> staging
   display: flex;
   justify-content: center;
   position: absolute;
@@ -130,11 +125,7 @@ p {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-<<<<<<< HEAD
   color: white
-=======
-  color: #fff;
->>>>>>> staging
 }
 
 #team .member span {
@@ -152,7 +143,6 @@ p {
   transition: none;
   color: #fff;
 }
-<<<<<<< HEAD
 
 body {
   font-family: sans-serif;
@@ -212,5 +202,3 @@ h4 > a:hover{
   font-weight: bold;
   text-decoration: none;
 }
-=======
->>>>>>> staging
