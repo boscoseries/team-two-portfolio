@@ -1,2 +1,4 @@
-# Remove Ds_Store
 .DS_Store
+*.txt
+*.zip
+*.gz
