@@ -65,7 +65,7 @@ p {
 }
 
 #team .member:hover .member-info-content {
-  color: white;
+  color: #00ffe0;
   margin-top: 0;
   transition: 0.4s;
 }
@@ -137,10 +137,16 @@ body {
 }
 
 span > a {
-  color: white;
+  color: #0afbbce0;
 }
 
-span > a:hover {
+span > a:hover{
+  color: #0afbbce0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h4 > a:hover{
   color: rgba(238, 207, 207, 0.966);
   font-weight: bold;
   text-decoration: none;
