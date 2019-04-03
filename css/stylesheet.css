@@ -45,7 +45,7 @@ p {
 }
 
 #team .member .member-info{
-  opacity: 0;
+  opacity: 1;
   display: flex;
   justify-content: center;
   position: absolute;
